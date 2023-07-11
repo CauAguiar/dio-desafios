@@ -1,0 +1,7 @@
+O objetivo é aprimorar a estrutura e a eficiência do sistema, implementando as operações de depósito, saque e extrato em funções específicas. Você terá a chance de refatorar o código existente, dividindo-o em funções reutilizáveis, facilitando a manutenção e o entendimento do sistema como um todo
+
+criar duas novas funções, cadastrar usuário(cliente) e cadastrar conta bancária corrente (vincular com o usuário)
+
+o usuário tem nome, data de nascimento, cpf e endereço, o endereço é uma string com logradouro - numero - bairro - cidade/sigla estado, também não podemos registrar dois usuários com o mesmo cpf
+
+a conta corrente é composta por agência, número da conta e usuário, o número da conta é sequencial começando em 1, o número da agência é fixo: "0001", o usuário pode ter mais de uma conta, mas uma conta pertence a apenas um usuario
